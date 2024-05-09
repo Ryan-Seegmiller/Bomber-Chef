@@ -1,0 +1,3220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b41ef23d5a3e3b4caf044f941b75318, type: 3}
+  m_Name: Grid 2
+  m_EditorClassIdentifier: 
+  grid:
+    width: 20
+    height: 20
+    cellSize: 2
+    center: {x: 0, y: 0, z: 0}
+    storedNode:
+    - x: -10
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.9999996, y: 0, z: -0.0000004172324}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -10
+      y: -9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.000000476837, y: 0, z: 0.9999995}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -10
+      y: -8
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.99999946, y: 0, z: 0.0000005364416}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -10
+      y: -7
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -10
+      y: -6
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -10
+      y: -5
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.000000476837, y: 0, z: 0.9999995}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -10
+      y: -4
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000083446446, y: 0, z: -0.99999917}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -10
+      y: -3
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.0000011920916, y: 0, z: 0.9999988}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -10
+      y: -2
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000059604616, y: 0, z: -0.9999994}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -10
+      y: -1
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -10
+      y: 0
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -10
+      y: 1
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -10
+      y: 2
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.99999946, y: 0, z: 0.0000005364416}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -10
+      y: 3
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000035762778, y: 0, z: -0.99999964}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -10
+      y: 4
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000035762778, y: 0, z: -0.99999964}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -10
+      y: 5
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000059604616, y: 0, z: -0.9999994}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -10
+      y: 6
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.9999996, y: 0, z: -0.0000004172324}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -10
+      y: 7
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.0000014305098, y: 0, z: 0.99999857}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -10
+      y: 8
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.999999, y: 0, z: 0.000001013278}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -10
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.99999946, y: 0, z: 0.0000005364416}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -9
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000059604616, y: 0, z: -0.9999994}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -9
+      y: -9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -9
+      y: -8
+      typeOfOccupaition: 5
+      previousOcupation: 0
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -9
+      y: -7
+      typeOfOccupaition: 8
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -9
+      y: -6
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000035762778, y: 0, z: -0.99999964}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -9
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -9
+      y: -4
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -9
+      y: -3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -9
+      y: -2
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -9
+      y: -1
+      typeOfOccupaition: 5
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -9
+      y: 0
+      typeOfOccupaition: 5
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -9
+      y: 1
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -9
+      y: 2
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -9
+      y: 3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -9
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -9
+      y: 5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -9
+      y: 6
+      typeOfOccupaition: 8
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -9
+      y: 7
+      typeOfOccupaition: 5
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -9
+      y: 8
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -9
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.99999934, y: 0, z: -0.00000065565075}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -8
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -8
+      y: -9
+      typeOfOccupaition: 5
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -8
+      y: -8
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -8
+      y: -7
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -8
+      y: -6
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -8
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -8
+      y: -4
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -8
+      y: -3
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -8
+      y: -2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -8
+      y: -1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -8
+      y: 0
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -8
+      y: 1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -8
+      y: 2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -8
+      y: 3
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -8
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -8
+      y: 5
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -8
+      y: 6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -8
+      y: 7
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -8
+      y: 8
+      typeOfOccupaition: 5
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -8
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.00000071525534, y: 0, z: 0.9999993}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -7
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000035762778, y: 0, z: -0.99999964}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -7
+      y: -9
+      typeOfOccupaition: 8
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -7
+      y: -8
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -7
+      y: -7
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: -0.000000476837, y: 0, z: 0.9999995}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -7
+      y: -6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -7
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000035762778, y: 0, z: -0.99999964}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -7
+      y: -4
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -7
+      y: -3
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -7
+      y: -2
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -7
+      y: -1
+      typeOfOccupaition: 4
+      previousOcupation: 0
+      direction: {x: -0.9999996, y: 0, z: -0.0000004172324}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -7
+      y: 0
+      typeOfOccupaition: 4
+      previousOcupation: 0
+      direction: {x: -0.99999934, y: 0, z: -0.00000065565075}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -7
+      y: 1
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -7
+      y: 2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -7
+      y: 3
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -7
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.99999934, y: 0, z: -0.00000065565075}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -7
+      y: 5
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -7
+      y: 6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -7
+      y: 7
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -7
+      y: 8
+      typeOfOccupaition: 8
+      previousOcupation: 0
+      direction: {x: -0.9999996, y: 0, z: -0.0000004172324}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -7
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.99999934, y: 0, z: -0.00000065565075}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -6
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000035762778, y: 0, z: -0.99999964}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -6
+      y: -9
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.9999992, y: 0, z: 0.0000007748599}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -6
+      y: -8
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -6
+      y: -7
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -6
+      y: -6
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -6
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -6
+      y: -4
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000059604616, y: 0, z: -0.9999994}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -6
+      y: -3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -6
+      y: -2
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -6
+      y: -1
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -6
+      y: 0
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0.00000059604616, y: 0, z: -0.9999994}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -6
+      y: 1
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0.99999946, y: 0, z: 0.0000005364416}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -6
+      y: 2
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -6
+      y: 3
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -6
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.00000071525534, y: 0, z: 0.9999993}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -6
+      y: 5
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -6
+      y: 6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -6
+      y: 7
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -6
+      y: 8
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -6
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000059604616, y: 0, z: -0.9999994}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -5
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000035762778, y: 0, z: -0.99999964}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -5
+      y: -9
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000035762778, y: 0, z: -0.99999964}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -5
+      y: -8
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -5
+      y: -7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -5
+      y: -6
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000035762778, y: 0, z: -0.99999964}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -5
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -5
+      y: -4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -5
+      y: -3
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000035762778, y: 0, z: -0.99999964}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -5
+      y: -2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -5
+      y: -1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -5
+      y: 0
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.9999996, y: 0, z: -0.0000004172324}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -5
+      y: 1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -5
+      y: 2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -5
+      y: 3
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -5
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -5
+      y: 5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.000000476837, y: 0, z: 0.9999995}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -5
+      y: 6
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -5
+      y: 7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -5
+      y: 8
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -5
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.99999946, y: 0, z: 0.0000005364416}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -4
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.000000476837, y: 0, z: 0.9999995}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -4
+      y: -9
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -4
+      y: -8
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -4
+      y: -7
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -4
+      y: -6
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -4
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -4
+      y: -4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -4
+      y: -3
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -4
+      y: -2
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -4
+      y: -1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -4
+      y: 0
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -4
+      y: 1
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.99999946, y: 0, z: 0.0000005364416}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -4
+      y: 2
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -4
+      y: 3
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -4
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -4
+      y: 5
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -4
+      y: 6
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -4
+      y: 7
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -4
+      y: 8
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -4
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.99999934, y: 0, z: -0.00000065565075}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -3
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000035762778, y: 0, z: -0.99999964}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -3
+      y: -9
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -3
+      y: -8
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -3
+      y: -7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -3
+      y: -6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -3
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000035762778, y: 0, z: -0.99999964}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -3
+      y: -4
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -3
+      y: -3
+      typeOfOccupaition: 4
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -3
+      y: -2
+      typeOfOccupaition: 7
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -3
+      y: -1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -3
+      y: 0
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -3
+      y: 1
+      typeOfOccupaition: 4
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -3
+      y: 2
+      typeOfOccupaition: 7
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -3
+      y: 3
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -3
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -3
+      y: 5
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -3
+      y: 6
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -3
+      y: 7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000035762778, y: 0, z: -0.99999964}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -3
+      y: 8
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -3
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.9999991, y: 0, z: -0.000000894069}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -2
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000035762778, y: 0, z: -0.99999964}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -2
+      y: -9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -2
+      y: -8
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -2
+      y: -7
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -2
+      y: -6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: -0.9999996, y: 0, z: -0.0000004172324}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -2
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -2
+      y: -4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -2
+      y: -3
+      typeOfOccupaition: 6
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -2
+      y: -2
+      typeOfOccupaition: 6
+      previousOcupation: 0
+      direction: {x: -0.9999996, y: 0, z: -0.0000004172324}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -2
+      y: -1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -2
+      y: 0
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -2
+      y: 1
+      typeOfOccupaition: 6
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -2
+      y: 2
+      typeOfOccupaition: 6
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -2
+      y: 3
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -2
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -2
+      y: 5
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -2
+      y: 6
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -2
+      y: 7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.9999996, y: 0, z: -0.0000004172324}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -2
+      y: 8
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -2
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.99999946, y: 0, z: 0.0000005364416}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -1
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000035762778, y: 0, z: -0.99999964}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -1
+      y: -9
+      typeOfOccupaition: 5
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -1
+      y: -8
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.99999946, y: 0, z: 0.0000005364416}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -1
+      y: -7
+      typeOfOccupaition: 4
+      previousOcupation: 0
+      direction: {x: 0.00000059604616, y: 0, z: -0.9999994}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -1
+      y: -6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -1
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -1
+      y: -4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -1
+      y: -3
+      typeOfOccupaition: 6
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -1
+      y: -2
+      typeOfOccupaition: 6
+      previousOcupation: 0
+      direction: {x: -0.99999934, y: 0, z: -0.00000065565075}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -1
+      y: -1
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -1
+      y: 0
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -1
+      y: 1
+      typeOfOccupaition: 6
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -1
+      y: 2
+      typeOfOccupaition: 6
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -1
+      y: 3
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -1
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.9999996, y: 0, z: -0.0000004172324}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -1
+      y: 5
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -1
+      y: 6
+      typeOfOccupaition: 4
+      previousOcupation: 0
+      direction: {x: -0.000000476837, y: 0, z: 0.9999995}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -1
+      y: 7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000035762778, y: 0, z: -0.99999964}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -1
+      y: 8
+      typeOfOccupaition: 5
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: -1
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.000000476837, y: 0, z: 0.9999995}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 0
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.000000476837, y: 0, z: 0.9999995}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 0
+      y: -9
+      typeOfOccupaition: 5
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 0
+      y: -8
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 0
+      y: -7
+      typeOfOccupaition: 4
+      previousOcupation: 0
+      direction: {x: 0.00000059604616, y: 0, z: -0.9999994}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 0
+      y: -6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 0
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 0
+      y: -4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 0
+      y: -3
+      typeOfOccupaition: 6
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 0
+      y: -2
+      typeOfOccupaition: 6
+      previousOcupation: 0
+      direction: {x: -0.9999996, y: 0, z: -0.0000004172324}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 0
+      y: -1
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 0
+      y: 0
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 0
+      y: 1
+      typeOfOccupaition: 6
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 0
+      y: 2
+      typeOfOccupaition: 6
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 0
+      y: 3
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 0
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 0
+      y: 5
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 0
+      y: 6
+      typeOfOccupaition: 4
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 0
+      y: 7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 0
+      y: 8
+      typeOfOccupaition: 5
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 0
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.99999946, y: 0, z: 0.0000005364416}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 1
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.00000071525534, y: 0, z: 0.9999993}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 1
+      y: -9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 1
+      y: -8
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 1
+      y: -7
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 1
+      y: -6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 1
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 1
+      y: -4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 1
+      y: -3
+      typeOfOccupaition: 6
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 1
+      y: -2
+      typeOfOccupaition: 6
+      previousOcupation: 0
+      direction: {x: -0.9999996, y: 0, z: -0.0000004172324}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 1
+      y: -1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 1
+      y: 0
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 1
+      y: 1
+      typeOfOccupaition: 6
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 1
+      y: 2
+      typeOfOccupaition: 6
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 1
+      y: 3
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 1
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 1
+      y: 5
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 1
+      y: 6
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 1
+      y: 7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.000000476837, y: 0, z: 0.9999995}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 1
+      y: 8
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 1
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.9999996, y: 0, z: -0.0000004172324}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 2
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000059604616, y: 0, z: -0.9999994}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 2
+      y: -9
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 2
+      y: -8
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 2
+      y: -7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 2
+      y: -6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 2
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 2
+      y: -4
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 2
+      y: -3
+      typeOfOccupaition: 7
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 2
+      y: -2
+      typeOfOccupaition: 4
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 2
+      y: -1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.9999991, y: 0, z: -0.000000894069}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 2
+      y: 0
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 2
+      y: 1
+      typeOfOccupaition: 7
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 2
+      y: 2
+      typeOfOccupaition: 4
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 2
+      y: 3
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 2
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 2
+      y: 5
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 2
+      y: 6
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 2
+      y: 7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 2
+      y: 8
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 2
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 3
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.9999996, y: 0, z: -0.0000004172324}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 3
+      y: -9
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 3
+      y: -8
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 3
+      y: -7
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 3
+      y: -6
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 3
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 3
+      y: -4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 3
+      y: -3
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 3
+      y: -2
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 3
+      y: -1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 3
+      y: 0
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.99999934, y: 0, z: -0.00000065565075}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 3
+      y: 1
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000059604616, y: 0, z: -0.9999994}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 3
+      y: 2
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 3
+      y: 3
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 3
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 3
+      y: 5
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 3
+      y: 6
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 3
+      y: 7
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 3
+      y: 8
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 3
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.000000476837, y: 0, z: 0.9999995}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 4
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 4
+      y: -9
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 4
+      y: -8
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 4
+      y: -7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 4
+      y: -6
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000035762778, y: 0, z: -0.99999964}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 4
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 4
+      y: -4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 4
+      y: -3
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 4
+      y: -2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 4
+      y: -1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 4
+      y: 0
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 4
+      y: 1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 4
+      y: 2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000059604616, y: 0, z: -0.9999994}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 4
+      y: 3
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 4
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 4
+      y: 5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 4
+      y: 6
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 4
+      y: 7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 4
+      y: 8
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000035762778, y: 0, z: -0.99999964}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 4
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.99999934, y: 0, z: -0.00000065565075}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 5
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 5
+      y: -9
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.99999934, y: 0, z: -0.00000065565075}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 5
+      y: -8
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 5
+      y: -7
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 5
+      y: -6
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 5
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000035762778, y: 0, z: -0.99999964}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 5
+      y: -4
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 5
+      y: -3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 5
+      y: -2
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 5
+      y: -1
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 5
+      y: 0
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 5
+      y: 1
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 5
+      y: 2
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: -0.000000476837, y: 0, z: 0.9999995}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 5
+      y: 3
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 5
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 5
+      y: 5
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 5
+      y: 6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 5
+      y: 7
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 5
+      y: 8
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.9999996, y: 0, z: -0.0000004172324}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 5
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000059604616, y: 0, z: -0.9999994}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 6
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.9999996, y: 0, z: -0.0000004172324}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 6
+      y: -9
+      typeOfOccupaition: 8
+      previousOcupation: 0
+      direction: {x: -0.9999996, y: 0, z: -0.0000004172324}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 6
+      y: -8
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 6
+      y: -7
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: -0.9999991, y: 0, z: -0.000000894069}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 6
+      y: -6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 6
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 6
+      y: -4
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 6
+      y: -3
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 6
+      y: -2
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 6
+      y: -1
+      typeOfOccupaition: 4
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 6
+      y: 0
+      typeOfOccupaition: 4
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 6
+      y: 1
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 6
+      y: 2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 6
+      y: 3
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 6
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 6
+      y: 5
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 6
+      y: 6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: -0.000000476837, y: 0, z: 0.9999995}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 6
+      y: 7
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 6
+      y: 8
+      typeOfOccupaition: 8
+      previousOcupation: 0
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 6
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000059604616, y: 0, z: -0.9999994}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 7
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 7
+      y: -9
+      typeOfOccupaition: 5
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 7
+      y: -8
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 7
+      y: -7
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 7
+      y: -6
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 7
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 7
+      y: -4
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 7
+      y: -3
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 7
+      y: -2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 7
+      y: -1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 7
+      y: 0
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 7
+      y: 1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 7
+      y: 2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 7
+      y: 3
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 7
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 7
+      y: 5
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 7
+      y: 6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 7
+      y: 7
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 7
+      y: 8
+      typeOfOccupaition: 5
+      previousOcupation: 0
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 7
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.0000009536735, y: 0, z: 0.99999905}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 8
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000059604616, y: 0, z: -0.9999994}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 8
+      y: -9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 8
+      y: -8
+      typeOfOccupaition: 5
+      previousOcupation: 0
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 8
+      y: -7
+      typeOfOccupaition: 8
+      previousOcupation: 0
+      direction: {x: -0.9999996, y: 0, z: -0.0000004172324}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 8
+      y: -6
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 8
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 8
+      y: -4
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 8
+      y: -3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 8
+      y: -2
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 8
+      y: -1
+      typeOfOccupaition: 5
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 8
+      y: 0
+      typeOfOccupaition: 5
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 8
+      y: 1
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 8
+      y: 2
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 8
+      y: 3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 8
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 8
+      y: 5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: -0.9999996, y: 0, z: -0.0000004172324}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 8
+      y: 6
+      typeOfOccupaition: 8
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 8
+      y: 7
+      typeOfOccupaition: 5
+      previousOcupation: 0
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 8
+      y: 8
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 8
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.0000009536735, y: 0, z: 0.99999905}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 9
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.999999, y: 0, z: 0.000001013278}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 9
+      y: -9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.0000011920916, y: 0, z: 0.9999988}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 9
+      y: -8
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.00000071525534, y: 0, z: 0.9999993}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 9
+      y: -7
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000059604616, y: 0, z: -0.9999994}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 9
+      y: -6
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.99999946, y: 0, z: 0.0000005364416}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 9
+      y: -5
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.000000476837, y: 0, z: 0.9999995}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 9
+      y: -4
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 9
+      y: -3
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000035762778, y: 0, z: -0.99999964}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 9
+      y: -2
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000035762778, y: 0, z: -0.99999964}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 9
+      y: -1
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.99999946, y: 0, z: 0.0000005364416}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 9
+      y: 0
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.9999996, y: 0, z: -0.0000004172324}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 9
+      y: 1
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000059604616, y: 0, z: -0.9999994}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 9
+      y: 2
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.99999946, y: 0, z: 0.0000005364416}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 9
+      y: 3
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.000000476837, y: 0, z: 0.9999995}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 9
+      y: 4
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.99999946, y: 0, z: 0.0000005364416}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 9
+      y: 5
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000035762778, y: 0, z: -0.99999964}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 9
+      y: 6
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000035762778, y: 0, z: -0.99999964}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 9
+      y: 7
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.000000476837, y: 0, z: 0.9999995}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 9
+      y: 8
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.00000035762778, y: 0, z: -0.99999964}
+      buidlingIndex: -1
+      G: 0
+      H: 0
+    - x: 9
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: -0.99999887, y: 0, z: -0.0000011324871}
+      buidlingIndex: -1
+      G: 0
+      H: 0

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c8a8d7b6ce4ebe4e8a9fdeeaa18df3e, type: 3}
+  m_Name: Ingredients
+  m_EditorClassIdentifier: 
+  itemType: 0
+  items:
+  - sprite: {fileID: 21300000, guid: 6f9896e6ecffbf04e8391896e8b2aa19, type: 3}
+    type: 0
+    name: Bread
+  - sprite: {fileID: 21300000, guid: 938ec671342ee624a8245ee3dbac9f11, type: 3}
+    type: 0
+    name: Chili
+  - sprite: {fileID: 21300000, guid: 06726bf51a2961549ab94ff8f7ff82e6, type: 3}
+    type: 0
+    name: Greens
+  - sprite: {fileID: 21300000, guid: 20957cf49f7ca24458469a0299668d68, type: 3}
+    type: 0
+    name: Heart
+  - sprite: {fileID: 21300000, guid: 617f84683d42f9c4e8d036377bee9e5b, type: 3}
+    type: 0
+    name: Meat
+  - sprite: {fileID: 21300000, guid: c39769136a75f2244aad4fa3baf25996, type: 3}
+    type: 0
+    name: Salsa

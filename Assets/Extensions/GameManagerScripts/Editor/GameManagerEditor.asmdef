@@ -1,0 +1,19 @@
+{
+    "name": "GamemanagerEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f32f0e274ca980a4abe8bdaa82097dea",
+        "GUID:a1b6be5390bbace458934142b815fb1c"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

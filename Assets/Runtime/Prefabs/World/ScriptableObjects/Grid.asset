@@ -1,0 +1,3220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b41ef23d5a3e3b4caf044f941b75318, type: 3}
+  m_Name: Grid
+  m_EditorClassIdentifier: 
+  grid:
+    width: 20
+    height: 20
+    cellSize: 2
+    center: {x: 0, y: 0, z: 0}
+    storedNode:
+    - x: -10
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -10
+      y: -9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -10
+      y: -8
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -10
+      y: -7
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -10
+      y: -6
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -10
+      y: -5
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -10
+      y: -4
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -10
+      y: -3
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -10
+      y: -2
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -10
+      y: -1
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -10
+      y: 0
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -10
+      y: 1
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -10
+      y: 2
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -10
+      y: 3
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -10
+      y: 4
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -10
+      y: 5
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -10
+      y: 6
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -10
+      y: 7
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -10
+      y: 8
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -10
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -9
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -9
+      y: -9
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -9
+      y: -8
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 33
+    - x: -9
+      y: -7
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 32
+    - x: -9
+      y: -6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 31
+    - x: -9
+      y: -5
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 30
+    - x: -9
+      y: -4
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 29
+    - x: -9
+      y: -3
+      typeOfOccupaition: 4
+      previousOcupation: 4
+      direction: {x: -0.00000023841855, y: 0, z: 0.99999976}
+      buidlingIndex: 278
+      G: 15
+      H: 28
+    - x: -9
+      y: -2
+      typeOfOccupaition: 6
+      previousOcupation: 4
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: 367
+      G: 14
+      H: 27
+    - x: -9
+      y: -1
+      typeOfOccupaition: 6
+      previousOcupation: 4
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: 367
+      G: 15
+      H: 26
+    - x: -9
+      y: 0
+      typeOfOccupaition: 6
+      previousOcupation: 4
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: 367
+      G: 14
+      H: 25
+    - x: -9
+      y: 1
+      typeOfOccupaition: 6
+      previousOcupation: 4
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: 367
+      G: 13
+      H: 24
+    - x: -9
+      y: 2
+      typeOfOccupaition: 7
+      previousOcupation: 5
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: 0
+      G: 14
+      H: 23
+    - x: -9
+      y: 3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 22
+    - x: -9
+      y: 4
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 21
+    - x: -9
+      y: 5
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 20
+    - x: -9
+      y: 6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 19
+    - x: -9
+      y: 7
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 18
+    - x: -9
+      y: 8
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 19
+    - x: -9
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -8
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -8
+      y: -9
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -8
+      y: -8
+      typeOfOccupaition: 8
+      previousOcupation: 1
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: 0
+      G: 19
+      H: 32
+    - x: -8
+      y: -7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 18
+      H: 31
+    - x: -8
+      y: -6
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 17
+      H: 30
+    - x: -8
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 16
+      H: 29
+    - x: -8
+      y: -4
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 28
+    - x: -8
+      y: -3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 27
+    - x: -8
+      y: -2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 13
+      H: 26
+    - x: -8
+      y: -1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 14
+      H: 25
+    - x: -8
+      y: 0
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 13
+      H: 24
+    - x: -8
+      y: 1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 12
+      H: 23
+    - x: -8
+      y: 2
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 22
+    - x: -8
+      y: 3
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 21
+    - x: -8
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 15
+      H: 20
+    - x: -8
+      y: 5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 14
+      H: 19
+    - x: -8
+      y: 6
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 13
+      H: 18
+    - x: -8
+      y: 7
+      typeOfOccupaition: 8
+      previousOcupation: 1
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: 0
+      G: 12
+      H: 17
+    - x: -8
+      y: 8
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 18
+    - x: -8
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -7
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -7
+      y: -9
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -7
+      y: -8
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 20
+      H: 31
+    - x: -7
+      y: -7
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 30
+    - x: -7
+      y: -6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 29
+    - x: -7
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 15
+      H: 28
+    - x: -7
+      y: -4
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 27
+    - x: -7
+      y: -3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 26
+    - x: -7
+      y: -2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 12
+      H: 25
+    - x: -7
+      y: -1
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 24
+    - x: -7
+      y: 0
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 23
+    - x: -7
+      y: 1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 11
+      H: 22
+    - x: -7
+      y: 2
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 21
+    - x: -7
+      y: 3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 20
+    - x: -7
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 14
+      H: 19
+    - x: -7
+      y: 5
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 18
+    - x: -7
+      y: 6
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 17
+    - x: -7
+      y: 7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 11
+      H: 16
+    - x: -7
+      y: 8
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 17
+    - x: -7
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -6
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -6
+      y: -9
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -6
+      y: -8
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 19
+      H: 30
+    - x: -6
+      y: -7
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 29
+    - x: -6
+      y: -6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 28
+    - x: -6
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 14
+      H: 27
+    - x: -6
+      y: -4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 13
+      H: 26
+    - x: -6
+      y: -3
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 12
+      H: 25
+    - x: -6
+      y: -2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 11
+      H: 24
+    - x: -6
+      y: -1
+      typeOfOccupaition: 5
+      previousOcupation: 4
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 23
+    - x: -6
+      y: 0
+      typeOfOccupaition: 5
+      previousOcupation: 4
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 22
+    - x: -6
+      y: 1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 10
+      H: 21
+    - x: -6
+      y: 2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 11
+      H: 20
+    - x: -6
+      y: 3
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 12
+      H: 19
+    - x: -6
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 13
+      H: 18
+    - x: -6
+      y: 5
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 17
+    - x: -6
+      y: 6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 16
+    - x: -6
+      y: 7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 10
+      H: 15
+    - x: -6
+      y: 8
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 16
+    - x: -6
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -5
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -5
+      y: -9
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -5
+      y: -8
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 18
+      H: 29
+    - x: -5
+      y: -7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 17
+      H: 28
+    - x: -5
+      y: -6
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 16
+      H: 27
+    - x: -5
+      y: -5
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 26
+    - x: -5
+      y: -4
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 25
+    - x: -5
+      y: -3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 24
+    - x: -5
+      y: -2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 10
+      H: 23
+    - x: -5
+      y: -1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 9
+      H: 22
+    - x: -5
+      y: 0
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 8
+      H: 21
+    - x: -5
+      y: 1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 9
+      H: 20
+    - x: -5
+      y: 2
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 19
+    - x: -5
+      y: 3
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 18
+    - x: -5
+      y: 4
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 17
+    - x: -5
+      y: 5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 7
+      H: 16
+    - x: -5
+      y: 6
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 8
+      H: 15
+    - x: -5
+      y: 7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 9
+      H: 14
+    - x: -5
+      y: 8
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 15
+    - x: -5
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -4
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -4
+      y: -9
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -4
+      y: -8
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 28
+    - x: -4
+      y: -7
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 27
+    - x: -4
+      y: -6
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 15
+      H: 26
+    - x: -4
+      y: -5
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 25
+    - x: -4
+      y: -4
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 24
+    - x: -4
+      y: -3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 23
+    - x: -4
+      y: -2
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 22
+    - x: -4
+      y: -1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 8
+      H: 21
+    - x: -4
+      y: 0
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 7
+      H: 20
+    - x: -4
+      y: 1
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 19
+    - x: -4
+      y: 2
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 18
+    - x: -4
+      y: 3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 17
+    - x: -4
+      y: 4
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 16
+    - x: -4
+      y: 5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 6
+      H: 15
+    - x: -4
+      y: 6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 14
+    - x: -4
+      y: 7
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 13
+    - x: -4
+      y: 8
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 14
+    - x: -4
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -3
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -3
+      y: -9
+      typeOfOccupaition: 7
+      previousOcupation: 4
+      direction: {x: 1.0000001, y: 0, z: -0.00000011920929}
+      buidlingIndex: 0
+      G: 17
+      H: 28
+    - x: -3
+      y: -8
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 27
+    - x: -3
+      y: -7
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 26
+    - x: -3
+      y: -6
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 14
+      H: 25
+    - x: -3
+      y: -5
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 24
+    - x: -3
+      y: -4
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 23
+    - x: -3
+      y: -3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 22
+    - x: -3
+      y: -2
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 21
+    - x: -3
+      y: -1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 7
+      H: 20
+    - x: -3
+      y: 0
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 6
+      H: 19
+    - x: -3
+      y: 1
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 18
+    - x: -3
+      y: 2
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 17
+    - x: -3
+      y: 3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 16
+    - x: -3
+      y: 4
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 15
+    - x: -3
+      y: 5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 5
+      H: 14
+    - x: -3
+      y: 6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 13
+    - x: -3
+      y: 7
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 12
+    - x: -3
+      y: 8
+      typeOfOccupaition: 4
+      previousOcupation: 4
+      direction: {x: 0.9999997, y: 0, z: 0.00000029802317}
+      buidlingIndex: 278
+      G: 8
+      H: 13
+    - x: -3
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -2
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -2
+      y: -9
+      typeOfOccupaition: 6
+      previousOcupation: 6
+      direction: {x: -0.9999996, y: 0, z: -0.0000004172324}
+      buidlingIndex: 367
+      G: 16
+      H: 27
+    - x: -2
+      y: -8
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 15
+      H: 26
+    - x: -2
+      y: -7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 14
+      H: 25
+    - x: -2
+      y: -6
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 13
+      H: 24
+    - x: -2
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 12
+      H: 23
+    - x: -2
+      y: -4
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 22
+    - x: -2
+      y: -3
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 21
+    - x: -2
+      y: -2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 7
+      H: 20
+    - x: -2
+      y: -1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 6
+      H: 19
+    - x: -2
+      y: 0
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 5
+      H: 18
+    - x: -2
+      y: 1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 4
+      H: 17
+    - x: -2
+      y: 2
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 16
+    - x: -2
+      y: 3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 15
+    - x: -2
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 3
+      H: 14
+    - x: -2
+      y: 5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 4
+      H: 13
+    - x: -2
+      y: 6
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 5
+      H: 12
+    - x: -2
+      y: 7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 6
+      H: 11
+    - x: -2
+      y: 8
+      typeOfOccupaition: 6
+      previousOcupation: 4
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: 367
+      G: 7
+      H: 12
+    - x: -2
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -1
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: -1
+      y: -9
+      typeOfOccupaition: 6
+      previousOcupation: 4
+      direction: {x: -0.9999996, y: 0, z: -0.0000004172324}
+      buidlingIndex: 367
+      G: 17
+      H: 26
+    - x: -1
+      y: -8
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 16
+      H: 25
+    - x: -1
+      y: -7
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 24
+    - x: -1
+      y: -6
+      typeOfOccupaition: 5
+      previousOcupation: 4
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 23
+    - x: -1
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 6
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 11
+      H: 22
+    - x: -1
+      y: -4
+      typeOfOccupaition: 1
+      previousOcupation: 6
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 10
+      H: 21
+    - x: -1
+      y: -3
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 9
+      H: 20
+    - x: -1
+      y: -2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 8
+      H: 19
+    - x: -1
+      y: -1
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 18
+    - x: -1
+      y: 0
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 17
+    - x: -1
+      y: 1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 3
+      H: 16
+    - x: -1
+      y: 2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2
+      H: 15
+    - x: -1
+      y: 3
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 1
+      H: 14
+    - x: -1
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2
+      H: 13
+    - x: -1
+      y: 5
+      typeOfOccupaition: 5
+      previousOcupation: 6
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 12
+    - x: -1
+      y: 6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 11
+    - x: -1
+      y: 7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 7
+      H: 10
+    - x: -1
+      y: 8
+      typeOfOccupaition: 6
+      previousOcupation: 4
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: 367
+      G: 8
+      H: 11
+    - x: -1
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 0
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 0
+      y: -9
+      typeOfOccupaition: 6
+      previousOcupation: 4
+      direction: {x: -0.9999996, y: 0, z: -0.0000004172324}
+      buidlingIndex: 367
+      G: 16
+      H: 25
+    - x: 0
+      y: -8
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 15
+      H: 24
+    - x: 0
+      y: -7
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 23
+    - x: 0
+      y: -6
+      typeOfOccupaition: 5
+      previousOcupation: 6
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 22
+    - x: 0
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 10
+      H: 21
+    - x: 0
+      y: -4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 9
+      H: 20
+    - x: 0
+      y: -3
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 8
+      H: 19
+    - x: 0
+      y: -2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 7
+      H: 18
+    - x: 0
+      y: -1
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 17
+    - x: 0
+      y: 0
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 16
+    - x: 0
+      y: 1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2
+      H: 15
+    - x: 0
+      y: 2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 1
+      H: 14
+    - x: 0
+      y: 3
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 0
+      H: 13
+    - x: 0
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 1
+      H: 12
+    - x: 0
+      y: 5
+      typeOfOccupaition: 5
+      previousOcupation: 5
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 11
+    - x: 0
+      y: 6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 10
+    - x: 0
+      y: 7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 6
+      H: 9
+    - x: 0
+      y: 8
+      typeOfOccupaition: 6
+      previousOcupation: 4
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: 367
+      G: 7
+      H: 10
+    - x: 0
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 11
+    - x: 1
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 1
+      y: -9
+      typeOfOccupaition: 6
+      previousOcupation: 4
+      direction: {x: -0.9999996, y: 0, z: -0.0000004172324}
+      buidlingIndex: 367
+      G: 15
+      H: 24
+    - x: 1
+      y: -8
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 14
+      H: 23
+    - x: 1
+      y: -7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 13
+      H: 22
+    - x: 1
+      y: -6
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 12
+      H: 21
+    - x: 1
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 11
+      H: 20
+    - x: 1
+      y: -4
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 19
+    - x: 1
+      y: -3
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 18
+    - x: 1
+      y: -2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 6
+      H: 17
+    - x: 1
+      y: -1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 5
+      H: 16
+    - x: 1
+      y: 0
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 4
+      H: 15
+    - x: 1
+      y: 1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 3
+      H: 14
+    - x: 1
+      y: 2
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 13
+    - x: 1
+      y: 3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 12
+    - x: 1
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2
+      H: 11
+    - x: 1
+      y: 5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 3
+      H: 10
+    - x: 1
+      y: 6
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 4
+      H: 9
+    - x: 1
+      y: 7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 5
+      H: 8
+    - x: 1
+      y: 8
+      typeOfOccupaition: 6
+      previousOcupation: 4
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: 367
+      G: 6
+      H: 9
+    - x: 1
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 10
+    - x: 2
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 2
+      y: -9
+      typeOfOccupaition: 4
+      previousOcupation: 4
+      direction: {x: -0.9999998, y: 0, z: -0.00000017881392}
+      buidlingIndex: 278
+      G: 16
+      H: 23
+    - x: 2
+      y: -8
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 22
+    - x: 2
+      y: -7
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 21
+    - x: 2
+      y: -6
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 13
+      H: 20
+    - x: 2
+      y: -5
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 19
+    - x: 2
+      y: -4
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 18
+    - x: 2
+      y: -3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 17
+    - x: 2
+      y: -2
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 16
+    - x: 2
+      y: -1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 6
+      H: 15
+    - x: 2
+      y: 0
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 5
+      H: 14
+    - x: 2
+      y: 1
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 13
+    - x: 2
+      y: 2
+      typeOfOccupaition: 2
+      previousOcupation: 5
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 12
+    - x: 2
+      y: 3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 11
+    - x: 2
+      y: 4
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 10
+    - x: 2
+      y: 5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 4
+      H: 9
+    - x: 2
+      y: 6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 8
+    - x: 2
+      y: 7
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 7
+    - x: 2
+      y: 8
+      typeOfOccupaition: 7
+      previousOcupation: 5
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: 0
+      G: 7
+      H: 8
+    - x: 2
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 9
+    - x: 3
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 3
+      y: -9
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 3
+      y: -8
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 21
+    - x: 3
+      y: -7
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 20
+    - x: 3
+      y: -6
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 14
+      H: 19
+    - x: 3
+      y: -5
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 18
+    - x: 3
+      y: -4
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 17
+    - x: 3
+      y: -3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 16
+    - x: 3
+      y: -2
+      typeOfOccupaition: 2
+      previousOcupation: 2
+      direction: {x: 1.0000001, y: 0, z: -0.00000011920929}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 15
+    - x: 3
+      y: -1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 7
+      H: 14
+    - x: 3
+      y: 0
+      typeOfOccupaition: 1
+      previousOcupation: 1
+      direction: {x: 1.0000001, y: 0, z: -0.00000011920929}
+      buidlingIndex: 0
+      G: 6
+      H: 13
+    - x: 3
+      y: 1
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 12
+    - x: 3
+      y: 2
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 11
+    - x: 3
+      y: 3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 10
+    - x: 3
+      y: 4
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 9
+    - x: 3
+      y: 5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 5
+      H: 8
+    - x: 3
+      y: 6
+      typeOfOccupaition: 2
+      previousOcupation: 4
+      direction: {x: 1.0000001, y: 0, z: -0.00000011920929}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 7
+    - x: 3
+      y: 7
+      typeOfOccupaition: 3
+      previousOcupation: 3
+      direction: {x: 1.0000001, y: 0, z: -0.00000011920929}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 6
+    - x: 3
+      y: 8
+      typeOfOccupaition: 2
+      previousOcupation: 2
+      direction: {x: 1.0000001, y: 0, z: -0.00000011920929}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 7
+    - x: 3
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 3
+      direction: {x: 1.0000001, y: 0, z: -0.00000011920929}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 8
+    - x: 4
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 4
+      y: -9
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 4
+      y: -8
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 17
+      H: 20
+    - x: 4
+      y: -7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 16
+      H: 19
+    - x: 4
+      y: -6
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 15
+      H: 18
+    - x: 4
+      y: -5
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 17
+    - x: 4
+      y: -4
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 16
+    - x: 4
+      y: -3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 15
+    - x: 4
+      y: -2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 9
+      H: 14
+    - x: 4
+      y: -1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 8
+      H: 13
+    - x: 4
+      y: 0
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 7
+      H: 12
+    - x: 4
+      y: 1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 8
+      H: 11
+    - x: 4
+      y: 2
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 10
+    - x: 4
+      y: 3
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 9
+    - x: 4
+      y: 4
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 8
+    - x: 4
+      y: 5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 6
+      H: 7
+    - x: 4
+      y: 6
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 7
+      H: 6
+    - x: 4
+      y: 7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 8
+      H: 5
+    - x: 4
+      y: 8
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 6
+    - x: 4
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 7
+    - x: 5
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 5
+      y: -9
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 5
+      y: -8
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 18
+      H: 19
+    - x: 5
+      y: -7
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 18
+    - x: 5
+      y: -6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 17
+    - x: 5
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 13
+      H: 16
+    - x: 5
+      y: -4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 12
+      H: 15
+    - x: 5
+      y: -3
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 11
+      H: 14
+    - x: 5
+      y: -2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 10
+      H: 13
+    - x: 5
+      y: -1
+      typeOfOccupaition: 5
+      previousOcupation: 4
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 12
+    - x: 5
+      y: 0
+      typeOfOccupaition: 5
+      previousOcupation: 6
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 11
+    - x: 5
+      y: 1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 9
+      H: 10
+    - x: 5
+      y: 2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 10
+      H: 9
+    - x: 5
+      y: 3
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 11
+      H: 8
+    - x: 5
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 12
+      H: 7
+    - x: 5
+      y: 5
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 6
+    - x: 5
+      y: 6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 5
+    - x: 5
+      y: 7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 9
+      H: 4
+    - x: 5
+      y: 8
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 5
+    - x: 5
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 6
+    - x: 6
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 6
+      y: -9
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 6
+      y: -8
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 19
+      H: 18
+    - x: 6
+      y: -7
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 17
+    - x: 6
+      y: -6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 16
+    - x: 6
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 14
+      H: 15
+    - x: 6
+      y: -4
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 14
+    - x: 6
+      y: -3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 13
+    - x: 6
+      y: -2
+      typeOfOccupaition: 1
+      previousOcupation: 4
+      direction: {x: 1.0000001, y: 0, z: -0.00000011920929}
+      buidlingIndex: 0
+      G: 11
+      H: 12
+    - x: 6
+      y: -1
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 11
+    - x: 6
+      y: 0
+      typeOfOccupaition: 2
+      previousOcupation: 4
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 10
+    - x: 6
+      y: 1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 10
+      H: 9
+    - x: 6
+      y: 2
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 8
+    - x: 6
+      y: 3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 7
+    - x: 6
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 13
+      H: 6
+    - x: 6
+      y: 5
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 5
+    - x: 6
+      y: 6
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 4
+    - x: 6
+      y: 7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 10
+      H: 3
+    - x: 6
+      y: 8
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 4
+    - x: 6
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 5
+    - x: 7
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 7
+      y: -9
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 7
+      y: -8
+      typeOfOccupaition: 8
+      previousOcupation: 8
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: 0
+      G: 18
+      H: 17
+    - x: 7
+      y: -7
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 17
+      H: 16
+    - x: 7
+      y: -6
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 16
+      H: 15
+    - x: 7
+      y: -5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 15
+      H: 14
+    - x: 7
+      y: -4
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 13
+    - x: 7
+      y: -3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 12
+    - x: 7
+      y: -2
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 12
+      H: 11
+    - x: 7
+      y: -1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 13
+      H: 10
+    - x: 7
+      y: 0
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 12
+      H: 9
+    - x: 7
+      y: 1
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 11
+      H: 8
+    - x: 7
+      y: 2
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 7
+    - x: 7
+      y: 3
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 6
+    - x: 7
+      y: 4
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 14
+      H: 5
+    - x: 7
+      y: 5
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 13
+      H: 4
+    - x: 7
+      y: 6
+      typeOfOccupaition: 1
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 12
+      H: 3
+    - x: 7
+      y: 7
+      typeOfOccupaition: 8
+      previousOcupation: 1
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: 0
+      G: 11
+      H: 2
+    - x: 7
+      y: 8
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 3
+    - x: 7
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 4
+    - x: 8
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 8
+      y: -9
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 8
+      y: -8
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 8
+      y: -7
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 8
+      y: -6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 8
+      y: -5
+      typeOfOccupaition: 2
+      previousOcupation: 4
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 8
+      y: -4
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 8
+      y: -3
+      typeOfOccupaition: 7
+      previousOcupation: 4
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: 278
+      G: 14
+      H: 11
+    - x: 8
+      y: -2
+      typeOfOccupaition: 6
+      previousOcupation: 4
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: 367
+      G: 13
+      H: 10
+    - x: 8
+      y: -1
+      typeOfOccupaition: 6
+      previousOcupation: 4
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: 367
+      G: 14
+      H: 9
+    - x: 8
+      y: 0
+      typeOfOccupaition: 6
+      previousOcupation: 4
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: 367
+      G: 13
+      H: 8
+    - x: 8
+      y: 1
+      typeOfOccupaition: 6
+      previousOcupation: 4
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: 367
+      G: 12
+      H: 7
+    - x: 8
+      y: 2
+      typeOfOccupaition: 4
+      previousOcupation: 5
+      direction: {x: 0.00000011920928, y: 0, z: -0.9999999}
+      buidlingIndex: 0
+      G: 13
+      H: 6
+    - x: 8
+      y: 3
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 5
+    - x: 8
+      y: 4
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 4
+    - x: 8
+      y: 5
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 3
+    - x: 8
+      y: 6
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 2
+    - x: 8
+      y: 7
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 1
+    - x: 8
+      y: 8
+      typeOfOccupaition: 2
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 2
+    - x: 8
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 9
+      y: -10
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 9
+      y: -9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 9
+      y: -8
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 9
+      y: -7
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 9
+      y: -6
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 9
+      y: -5
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0.99999994, y: 0, z: 0.000000059604645}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 9
+      y: -4
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 9
+      y: -3
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 9
+      y: -2
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 9
+      y: -1
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 1}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 9
+      y: 0
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 9
+      y: 1
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 6
+    - x: 9
+      y: 2
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 5
+    - x: 9
+      y: 3
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 4
+    - x: 9
+      y: 4
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 3
+    - x: 9
+      y: 5
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 2
+    - x: 9
+      y: 6
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 1
+    - x: 9
+      y: 7
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 9
+      y: 8
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
+    - x: 9
+      y: 9
+      typeOfOccupaition: 3
+      previousOcupation: 0
+      direction: {x: 0, y: 0, z: 0}
+      buidlingIndex: 0
+      G: 2147483647
+      H: 0
