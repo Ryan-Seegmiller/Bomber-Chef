@@ -8,5 +8,5 @@ Cook your bomb
 
 End your enemies
 
-[Play now]()
+[Play now](https://github.com/Ryan-Seegmiller/Bomber-Chef/archive/refs/heads/main.zip)
 
